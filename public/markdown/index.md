@@ -11,8 +11,13 @@ __If you want music__ you should be using https://discordapp.com/oauth2/authoriz
 ## Music Commands
 [(Requires the music bot)](https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot).
 
+The music bot supports media from many sites and even supports playlists from sites like YouTube and Soundcloud. The bot will not be able to play songs blocked in the US (usually from copyright infringements on YouTube).
+
 | Command                    | Description                                                           | Example usage                               |
 |----------------------------|-----------------------------------------------------------------------|---------------------------------------------|
+| ;;lang ***code***                    | Selects a language profile. [list of supported languages](https://hastebin.com/isebotirah.pas)                 | ;;lang en_US
+| ;;config                     | Displays the current configuration of this guild.                 | ;;config 
+| ;;config ***code***                     | Changes the configuration of this guild.                 | ;;config auto_resume  true
 | ;;play ***url***             | Plays music from the given URLs. See supported sources below.       | ;;play https://www.youtube.com/watch?v=dQw4w9WgXcQ     |
 | ;;list                     | Displays a list of the current songs in the playlist.                 | ;;list                                      |
 | ;;nowplaying               | Displays the currently playing song.                                  | ;;nowplaying                                |
@@ -45,8 +50,6 @@ __If you want music__ you should be using https://discordapp.com/oauth2/authoriz
 | ;;facedesk                 | Uploads an image.                                                     | ;;facedesk                                  |
 | ;;roll                     | Uploads an image.                                                     | ;;roll                                      |
 
-## Music Commands
-The music bot supports media from many sites and even supports playlists from sites like YouTube and Soundcloud. The bot will not be able to play songs blocked in France (usually from copyright infringements on YouTube).
 
 ## Adding music to the playlist
 Adding music to the playlist is pretty simple. To start playing a song, simply use the ;;play command. Here are two examples:
