@@ -59,7 +59,8 @@ You can then choose your song with the `;;select <number>` command.
 
 * Vimeo
 
-* Direct links to files, including streams. Not all formats supported.
+* ~~Direct links to files, including streams. Not all formats supported.~~ \
+  Due to threats of (D)DoS attacks we have disabled this.
 
 * URLs pointing to .m3u and .pls can be used to start streams.
 
