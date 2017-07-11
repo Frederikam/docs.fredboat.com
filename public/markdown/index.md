@@ -61,7 +61,7 @@ You can then choose your song with the `;;select <number>` command.
 
 * ~~Direct links to files, including streams. Not all formats supported.~~¹
 
-* URLs pointing to .m3u and .pls can be used to start streams.
+* ~~URLs pointing to .m3u and .pls can be used to start streams.~~¹
 
 1.**Due to threats of (D)DoS attacks we have disabled these.**
 
