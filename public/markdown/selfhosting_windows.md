@@ -17,7 +17,7 @@ This is a tutorial for users who would like to host their own bot running Fredbo
 
 5. [A registered Discord application](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
 
-6. Windows (See Selfhosting(Linux) for the linux tutorial)
+6. Windows (See [Selfhosting(Linux)](https://fredboat.com/docs/selfhosting_linux) for the linux tutorial)
 
 ### Instructions
 Open Command Prompt and go to the directory where you want to download the bot

@@ -13,7 +13,7 @@ This is a tutorial for users who would like to host their own bot running Fredbo
 
 3. [A registered Discord application](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
 
-4. Linux \(Windows works too, but this tutorial is targetted at Linux\)
+4. Linux (For Windows; see [Selfhosting(Windows)](http://fredboat.com/docs/selfhosting_windows))
 
 ### Instructions
 Clone the `master` branch of FredBoat recursively:
@@ -95,4 +95,4 @@ spotifySecret:
 Once you are done configuring, run the bot with `java -jar -Xmx128m FredBoat-1.0.jar`.
 
 
-[Follow this link](http://docs.fredboat.com/systemdservice) to find a tutorial on running FredBoat as a `systemd` service.
+[Follow this link](https://fredboat.com/docs/systemdservice) to find a tutorial on running FredBoat as a `systemd` service.
