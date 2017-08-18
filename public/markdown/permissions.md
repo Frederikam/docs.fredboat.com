@@ -4,7 +4,7 @@ FredBoat uses 4 different ranks each with different permissions.
 
 * 3: Admin
 
-*Can change [FredBoat configuration](https://docs.fredboat.com/configuration) and edit permissions*
+*Can change [FredBoat configuration](https://fredboat.com/docs/configuration) and edit permissions*
 
 * 2: DJ
 

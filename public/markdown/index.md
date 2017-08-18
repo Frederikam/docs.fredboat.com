@@ -71,12 +71,12 @@ Let us know if you want other sites supported.
 We invite everyone to join FredBoat hangout, which is a place to discuss suggestions and request for support. I'm very willing to take suggestions for the bot so don't hesitate to say what you have in mind! [Click here to join!](https://discord.gg/cgPFW4q)
 
 ## Support
-Before you do anything, please [read our FAQ](https://docs.fredboat.com/faq).
+Before you do anything, please [read our FAQ](https://fredboat.com/docs/faq).
 
 You can join either our [Discord server](https://discord.gg/cgPFW4q) or tweet us at [@DiscordFredBoat](https://twitter.com/DiscordFredBoat).
 
 ## Legal
-By using any of my hosted (but not selfhosted) bots you are subject to our (very minimal!) [terms of service](http://docs.fredboat.com/terms).
+By using any of my hosted (but not selfhosted) bots you are subject to our (very minimal!) [terms of service](https://fredboat.com/docs/terms).
 
 Effective as of 25-apr-2017.
 

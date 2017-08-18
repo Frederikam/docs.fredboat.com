@@ -3,7 +3,7 @@ This is a tutorial for users who would like to host their own bot running Fredbo
 
 #### This tutorial is for advanced users. If you can't figure out how to run this, please use the public FredBoat♪♪
 
-## Intallation
+## Linux
 
 ### Requirements
 
@@ -13,7 +13,7 @@ This is a tutorial for users who would like to host their own bot running Fredbo
 
 3. [A registered Discord application](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
 
-4. Linux \(Windows works too, but this tutorial is targetted at Linux\)
+4. Linux (See [Selfhosting(Windows)](https://fredboat.com/docs/selfhosting#Windows) for the Windows tutorial)
 
 ### Instructions
 Clone the `master` branch of FredBoat recursively:
@@ -36,6 +36,54 @@ To run the bot you should set up a directory that looks like this:
 ├──credentials.yaml
 └──config.yaml
 ```
+
+## Windows
+
+### Requirements
+
+1. [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+2. [Apache Maven](https://maven.apache.org/install.html)
+
+3. [Git](https://www.atlassian.com/git/tutorials/install-git#windows)
+
+4. [JDK and Maven added to your PATH](https://www.tutorialspoint.com/maven/maven_environment_setup.htm)
+
+5. [A registered Discord application](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
+
+6. Windows (See [Selfhosting(Linux)](https://fredboat.com/docs/selfhosting#Linux) for the Linux tutorial)
+
+### Instructions
+Open Command Prompt and go to the directory where you want to download the bot
+
+For example if your Windows Account name was `Fred`; you would do:
+
+```sh
+cd C:\Users\Fred\Desktop
+```
+
+Now clone the `master` branch of FredBoat recursively:
+
+```sh
+git clone --recursive https://github.com/Frederikam/FredBoat.git
+```
+
+Now compile the bot:
+
+```sh
+cd FredBoat
+mvn package shade:shade
+```
+
+To run the bot you should set up a directory that looks like this:
+
+```
+├──FredBoat-1.0.jar
+├──credentials.yaml
+└──config.yaml
+```
+
+## Setting up config and credentials
 
 The compiled bot can be found in `FredBoat/FredBoat/target`. A sample `config.yaml` and an example `credentials.yaml` can be found in https://github.com/Frederikam/FredBoat/tree/master/FredBoat
 
@@ -95,4 +143,4 @@ spotifySecret:
 Once you are done configuring, run the bot with `java -jar -Xmx128m FredBoat-1.0.jar`.
 
 
-[Follow this link](http://docs.fredboat.com/systemdservice) to find a tutorial on running FredBoat as a `systemd` service.
+[Follow this link](https://fredboat.com/docs/systemdservice) to find a tutorial on running FredBoat as a `systemd` service.
