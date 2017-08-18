@@ -13,7 +13,7 @@ This is a tutorial for users who would like to host their own bot running Fredbo
 
 3. [A registered Discord application](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
 
-4. Linux (For Windows; see [Selfhosting(Windows)](http://fredboat.com/docs/selfhosting#Windows)
+4. Linux (See [Selfhosting(Windows)](https://fredboat.com/docs/selfhosting#Windows) for the Windows tutorial)
 
 ### Instructions
 Clone the `master` branch of FredBoat recursively:
@@ -51,7 +51,7 @@ To run the bot you should set up a directory that looks like this:
 
 5. [A registered Discord application](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
 
-6. Windows (See [Selfhosting(Linux)](https://fredboat.com/docs/selfhosting#Linux) for the linux tutorial)
+6. Windows (See [Selfhosting(Linux)](https://fredboat.com/docs/selfhosting#Linux) for the Linux tutorial)
 
 ### Instructions
 Open Command Prompt and go to the directory where you want to download the bot
