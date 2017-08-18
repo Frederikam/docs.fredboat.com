@@ -21,6 +21,7 @@ This is a tutorial for users who would like to host their own bot running Fredbo
 
 ### Instructions
 Open Command Prompt and go to the directory where you want to download the bot
+
 For example if your Windows Account name was `Fred`; you would do:
 
 ```sh
