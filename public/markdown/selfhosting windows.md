@@ -20,13 +20,14 @@ This is a tutorial for users who would like to host their own bot running Fredbo
 6. Windows (See Selfhosting(Linux) for the linux tutorial)
 
 ### Instructions
-Open Command Prompt and go to the directory where you want to have FredBoat download to(e.g `C:\Users\Fred\Desktop`)
+Open Command Prompt and go to the directory where you want to download the bot
+For example if your Windows Account name was `Fred`; you would do:
 
 ```sh
 cd C:\Users\Fred\Desktop
 ```
 
-Clone the `master` branch of FredBoat recursively:
+Now clone the `master` branch of FredBoat recursively:
 
 ```sh
 git clone --recursive https://github.com/Frederikam/FredBoat.git
@@ -53,6 +54,13 @@ You can ensure the directory looks like this by opening Command Prompt and doing
 
 ```sh
 cd Path-to-your-folder
+dir
+```
+
+So assuming you started off using `C:\Users\Fred\Desktop`; you would do the following:
+
+```sh
+cd C:\Users\Fred\Desktop\FredBoat\FredBoat\target
 dir
 ```
 
